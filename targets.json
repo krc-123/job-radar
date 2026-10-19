@@ -1,0 +1,485 @@
+{
+ "families": [
+  {
+   "name": "Clinical Product Manager",
+   "weight": 38,
+   "title": "product (manager|lead|owner|director|management)",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Director of Clinical Quality (Stars/HEDIS)",
+   "weight": 35,
+   "title": "(clinical quality|quality (improvement|management|program|director|manager|lead|specialist|nurse|reviewer|analyst)|\\bstars\\b|hedis|quality measures?)"
+  },
+  {
+   "name": "Clinical Solutions Consultant",
+   "weight": 35,
+   "title": "(solutions? consultant|clinical consultant|clinical solutions|nurse consultant|clinical advisor|clinical specialist)"
+  },
+  {
+   "name": "Director of Clinical Operations",
+   "weight": 35,
+   "title": "((clinical|care|nursing|virtual care|telehealth) (operations|ops)|clinical program (manager|director|lead)|director of clinical|clinical (manager|director|lead|supervisor))"
+  },
+  {
+   "name": "Clinical AI Specialist / Analyst",
+   "weight": 42,
+   "title": "(clinical.{0,25}\\b(ai|artificial intelligence|llm|machine learning|model)\\b|\\b(ai|llm|genai|artificial intelligence)\\b.{0,30}(clinical|clinician|nurse|nursing|medical|health|physician)|(nurse|rn|clinician|clinical|medical|healthcare|physician).{0,20}(annotat|evaluat|rater|trainer|expert|reviewer|labeler|data specialist)|(subject matter expert|sme|domain expert).{0,25}(clinical|nurs|health|medical)|clinical (expert|evaluation|validation|safety) )"
+  },
+  {
+   "name": "Value-Based Care Program Director",
+   "weight": 35,
+   "title": "(value.based|\\bvbc\\b|\\baco\\b|accountable care|risk.bearing|total cost of care|quality and value)"
+  },
+  {
+   "name": "Clinical Informatics Specialist",
+   "weight": 35,
+   "title": "(informatic|clinical systems analyst|ehr (analyst|specialist|trainer|consultant)|epic (analyst|trainer|consultant)|clinical (analyst|applications?))"
+  },
+  {
+   "name": "Director of Regulatory Affairs",
+   "weight": 32,
+   "title": "(regulatory (affairs|director|manager|lead|specialist|strategy|compliance|counsel|analyst)|regulatory)",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Nurse Executive / VP Clinical Services",
+   "weight": 35,
+   "title": "((vp|vice president|head|chief|director|svp|avp)[^,]{0,25}(clinical|nursing|care delivery|clinical services|patient care)|nurse (executive|leader|manager)|chief nursing|director of nursing|clinical (leader|leadership))"
+  },
+  {
+   "name": "Healthcare Compliance Officer",
+   "weight": 34,
+   "title": "(compliance|hipaa|privacy officer|risk (management|officer|manager)|ethics)",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Clinical Content Strategist",
+   "weight": 36,
+   "title": "((clinical|medical|health|nurse|nursing|care) (content|writer|editor|curriculum|education|educator|knowledge|guidelines?|protocols?)|content (strategist|lead|manager|designer).{0,30}(clinical|health|medical|care)|medical (writing|writer)|clinical (training|learning|instructional))"
+  },
+  {
+   "name": "Population Health Program Manager",
+   "weight": 36,
+   "title": "(population health|community health (program|manager|director)|chronic (care|condition|disease) (program|manager|director)|care gap|health outcomes)"
+  },
+  {
+   "name": "Risk Adjustment Program Manager",
+   "weight": 30,
+   "title": "(risk adjustment|\\bhcc\\b|coding (quality|accuracy|program|manager|director|auditor|educator|specialist)|medical coding|clinical documentation (improvement|integrity|specialist)|\\bcdi\\b)"
+  },
+  {
+   "name": "Clinical Implementation Manager",
+   "weight": 36,
+   "title": "(implementation|onboarding (manager|lead|specialist|director)|deployment (strategist|manager|lead|specialist)|launch (manager|lead|specialist))",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Director of Care Management",
+   "weight": 32,
+   "title": "(care (management|manager|coordination|coordinator|navigation|navigator|transitions?)|case (management|manager)|disease management|(nurse|rn|nursing) (health(care)? |patient |care )?(navigator|advocate|case manager|care manager)|patient (advocate|navigator|advocacy)|member (advocate|engagement|experience)|health(care)? (coach|advocate|navigator)|transition(s)? of care|complex care|care team)"
+  },
+  {
+   "name": "Health Equity / Accessibility Product Lead",
+   "weight": 38,
+   "title": "(health equity|equity (lead|manager|director|program|strategy|officer|initiatives)|accessibility|inclusive design|disability|deaf|hard of hearing|\\basl\\b|sign language|language access)"
+  },
+  {
+   "name": "Clinical Success Manager",
+   "weight": 35,
+   "title": "((clinical|clinician|provider|practice|customer|client|member) (success|engagement|adoption|experience|relations|partner)|success (manager|director|lead)|account (manager|director)|client (partner|services|delivery|manager)|customer (support|experience|operations) (manager|lead|director))",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Utilization Management Director",
+   "weight": 32,
+   "title": "(utilization|medical (review|management|necessity|policy|director|claims)|prior auth|authorization|appeals?|grievance|clinical (review|reviewer|claims|appeals|audit|auditor)|nurse (reviewer|auditor)|\\bum\\b|\\bur\\b|peer review|denial|clinical criteria|coverage (determination|policy))"
+  },
+  {
+   "name": "Payer Strategy / Market Access Manager",
+   "weight": 32,
+   "title": "(payer|payor|market access|reimbursement|managed care|contracting|network (contract|development)|health plan (partnership|strategy|relations)|medicare (strategy|advantage)|medicaid (strategy|program|policy|managed)|revenue cycle|\\brcm\\b|field reimbursement|patient access)"
+  },
+  {
+   "name": "Clinical Data Analyst",
+   "weight": 34,
+   "title": "((clinical|healthcare|health|quality|population health|care|medical|claims|payer|value.based) (data )?(analyst|analytics|insights|reporting)|data analyst|analytics (manager|lead|analyst|consultant)|business (intelligence|analyst)|reporting analyst|sql|looker)",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Digital Health Program Manager",
+   "weight": 36,
+   "title": "(digital health|virtual (care|health|nursing|clinic)|telehealth|telemedicine|innovation|program (manager|director|lead|management|officer)|project (manager|lead|director)|strategic (initiatives|programs|projects)|transformation|pmo)",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Provider Network Performance Manager",
+   "weight": 35,
+   "title": "(provider (performance|network|engagement|relations|success|operations|partnerships?|experience|enablement|education|quality|incentive)|network (performance|management|operations|strategy|adequacy)|practice (performance|transformation|engagement|coach|consultant|manager)|physician (engagement|relations|liaison))"
+  },
+  {
+   "name": "Clinical Trials Operations Manager",
+   "weight": 33,
+   "title": "(clinical (trial|research|study|studies|operations|development|program)|research (nurse|coordinator|manager|operations|associate)|study (manager|coordinator|start|operations|lead)|decentralized|\\bcra\\b|\\bcrc\\b|site (management|engagement|activation|operations)|patient recruitment|trial)",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Medical Affairs Associate",
+   "weight": 33,
+   "title": "(medical affairs|medical science liaison|\\bmsl\\b|medical (advisor|director|liaison|education|communications|information|strategy|outcomes)|clinical affairs|scientific (affairs|communications)|health economics|\\bheor\\b|evidence|real.world)"
+  },
+  {
+   "name": "Healthcare Interoperability Analyst",
+   "weight": 36,
+   "title": "(interoperab|fhir|hl7|integration (analyst|specialist|consultant|manager|lead|engineer)|data exchange|ehr integration|health information exchange|\\bhie\\b|api (product|integration)|integrations)",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Remote Patient Monitoring Program Director",
+   "weight": 36,
+   "title": "(remote patient monitoring|\\brpm\\b|chronic care management|\\bccm\\b|remote monitoring|virtual (nurse|nursing|rn)|telephonic|triage|nurse line|tele.?(nurse|health|triage))"
+  },
+  {
+   "name": "Clinical Sales Engineer / Solutions Architect",
+   "weight": 30,
+   "title": "((sales|solutions?|clinical|healthcare|customer) (engineer|architect|consultant|specialist)|pre.?sales|solutions (lead|specialist|manager|director|strategist)|demo|value (engineer|consultant))",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Health Plan Product Manager",
+   "weight": 35,
+   "title": "((health plan|medicare|medicaid|benefits?|payer|plan|insurance|coverage|member|network) (product|program|strategy|design|operations|manager|director|lead|analyst)|product (manager|director|lead).{0,30}(medicare|medicaid|plan|payer|benefit))"
+  },
+  {
+   "name": "Nonprofit / Fractional Executive Leadership",
+   "weight": 34,
+   "title": "(executive director|managing director|\\bceo\\b|chief executive|chief operating officer|\\bcoo\\b|chief (program|programs|strategy|impact|people|operating|administrative|advocacy|policy|external affairs) officer|\\bchro\\b|(vice president|\\bvp\\b|\\bsvp\\b|\\bavp\\b|deputy director|senior director|head)(?: of)?,? (programs?|operations|strategy|policy|advocacy|(strategic )?partnerships|business development|impact|people|external affairs|public affairs|government affairs|community|engagement|mission|strategic initiatives)|director of (programs?|operations|strategy|policy|advocacy|(strategic )?partnerships|business development|impact|people|external affairs|public affairs|government affairs|community engagement|strategic initiatives)|(people|talent) (operations|and culture|& culture) (lead|manager|director|partner)|fractional (executive|leader|coo|ceo|chief|director|head)|interim (executive|chief|ceo|coo|president|director)|chief external affairs officer)",
+   "context_nonprofit_or_fractional": true
+  },
+  {
+   "name": "Nonprofit Program and Policy (fractional / part-time)",
+   "weight": 30,
+   "title": "(\\b(interim|fractional|acting)\\b.{0,50}\\b(director|officer|manager|lead|head|executive|consultant|coo|ceo|chief|support)\\b|\\b(programs?|project|operations|policy|advocacy|strategy|impact|evaluation|learning|training|coalition|partnerships?|organizational development|capacity building|governance|board|network|community (health|engagement|network))\\b.{0,35}\\b(manager|director|officer|lead|consultant|advisor|strategist|facilitator|head|anchor)\\b|\\b(consultant|advisor|facilitator|trainer|strategist)\\b|\\bassociate director\\b|\\bhealth educator\\b)",
+   "context_nonprofit_or_fractional": true
+  },
+  {
+   "name": "Chief of Staff",
+   "weight": 37,
+   "title": "(chief of staff|strategic (advisor|operations|initiatives)|business operations (manager|lead|director)|executive (operations|projects)|office of the (ceo|coo|cmo|president)|special projects|founder'?s? (office|associate))",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Customer Success Director",
+   "weight": 33,
+   "title": "(customer success|client success|customer experience|client (services|relations|delivery|engagement|management)|account management|customer operations|support (manager|director|lead))",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Strategic Partnerships / Business Development",
+   "weight": 33,
+   "title": "(strategic partnerships?|partnerships? (director|manager|lead|head|executive|officer)|(director|head|vp|vice president|rvp|manager|lead|senior manager)[^,]{0,25}partnerships?|business development (director|manager|lead|head|officer)|(director|head|vp|vice president|manager|lead)[^,]{0,25}business development|(employer|payer|payor|health plan|medicaid|medicare|public sector|labor and trust|labor, trust)[^,]{0,20}(partnerships?|solutions|relations)|(member|patient) (growth|acquisition|retention)|growth (and|&) (partnerships|retention))",
+   "context_in_title_or_health_company": true
+  },
+  {
+   "name": "Other clinical / health leadership",
+   "weight": 22,
+   "title": "\\b(nurse|nursing|\\brn\\b|bsn|clinical|clinician|health(care)?|medical|patient|care|payer|medicaid|medicare|public health|maternal|perinatal|women'?s health|behavioral health|mental health)\\b.{0,40}\\b(manager|director|lead|specialist|consultant|analyst|strategist|advisor|reviewer|coordinator|officer|partner|executive|head|vp|principal|educator|instructor|liaison|advocate)\\b|\\b(obstetric|ob|maternal|perinatal|postpartum|women'?s health|behavioral health|mental health|lactation|fertility|pediatric)\\b[^,]{0,25}\\b(nurse|rn)\\b"
+  }
+ ],
+ "health_context": "\\b(health|healthcare|clinical|clinician|clinic|nurse|nursing|\\brn\\b|patient|care|medical|medicine|medicaid|medicare|payer|payor|payers|provider|hospital|telehealth|pharma|biotech|therap|behavioral|wellness|wellbeing|well-being|life sciences|digital health|ehr|emr|hipaa|cms|hedis|population health|public health|maternal|perinatal)\\b",
+ "exclude_title": "\\b(software|developer|engineer(ing)?(?! ?(consultant|architect))|devops|sre|data scientist|machine learning engineer|ml engineer|frontend|backend|full.?stack|ios|android|physician|\\bmd\\b|\\bdo\\b|psychiatrist|psychologist|therapist|lcsw|lpc|lmft|counselor|pharmacist|pharmd|dietitian|nutritionist|physical therapist|occupational therapist|speech|slp|\\bnp\\b|nurse practitioner|physician assistant|\\bpa-c\\b|\\bcrna\\b|\\bpsych ?np\\b|phlebotomist|medical assistant|\\bcna\\b|\\blpn\\b|\\blvn\\b|technician|recruiter|talent acquisition|sales development|business development representative|partnerships? (associate|coordinator|representative)|\\bsdr\\b|\\bbdr\\b|account executive|\\bae\\b|intern(ship)?|new grad|entry.level|apprentice|paralegal|attorney|counsel(?! health)|accountant|payroll|bookkeep|designer|copywriter|video|graphic|social media|warehouse|driver|security engineer|quant\\w*|actuar\\w*|underwrit\\w*|tax\\b|treasury|medical director|medical officer|chief medical|pharmac\\w*|dent(al|ist)|optometr\\w*|veterinar\\w*|radiolog\\w*|\\w+ologist|licensed (practical|vocational) nurse|practical nurse|vocational nurse|\\bprovider\\b(?! (relations|engagement|network|performance|partnership|partnerships|success|operations|experience|enablement|education|quality|contracting|data|strategy|services))|crisis line|hotline|executive assistant|administrative assistant|sales specialist|outbound|inbound|call center|scheduler|receptionist|billing (specialist|clerk)|collections|enrollment specialist|data entry|transcription|scribe|equity research|private equity|equity analyst|investment|(workday|hris|salesforce|sharepoint|servicenow|systems?|network|database|it|cloud|linux|windows) administrator|cloudops|devsecops|site reliability|data platform engineer|mobile engineer|staff data scientist|data engineer|technical product manager|\\bedi\\b|toolchain|enablement (engineer|lead)|it support|information technology|\\bit\\b (manager|director|lead|analyst)|canvass\\w*|\\brfp\\b|\\brfa\\b|\\brfq\\b|request for (proposals?|applications?|qualifications?)|fellow(ship)?|correspondent|journalist|editor(ial)?|translator|interpreters?|tutor|organizer|it consultant|salesforce|finance associate|billing assistant|office administrator|controller|\\bcfo\\b|chief financial|go.to.market|\\bgtm\\b|chief revenue|revenue officer|sales (director|manager|lead|leader|executive|vp)|head of sales)\\b",
+ "exclude_desc": "\\b(must be a (licensed )?(physician|md|do|np|nurse practitioner|pharmacist|psychologist|therapist|lcsw)|active (np|nurse practitioner|physician|pharmd) license|board.certified physician|phd required|doctoral degree required)\\b",
+ "skills": [
+  [
+   "\\bhedis\\b",
+   3,
+   "HEDIS"
+  ],
+  [
+   "\\b(medicare advantage|star ratings?|\\bstars\\b)",
+   3,
+   "Stars / Medicare Advantage"
+  ],
+  [
+   "\\bmedicare\\b",
+   2,
+   "Medicare"
+  ],
+  [
+   "\\bmedicaid\\b",
+   2,
+   "Medicaid"
+  ],
+  [
+   "managed care|\\bmco\\b",
+   2,
+   "managed care"
+  ],
+  [
+   "utilization (review|management)|medical necessity|prior authorization|\\bum\\b",
+   2,
+   "utilization review"
+  ],
+  [
+   "care (management|coordination|navigation)|case management",
+   2,
+   "care management"
+  ],
+  [
+   "population health",
+   2,
+   "population health"
+  ],
+  [
+   "value.based|\\bvbc\\b|\\baco\\b|risk.bearing",
+   2,
+   "value-based care"
+  ],
+  [
+   "\\bfhir\\b|\\bhl7\\b|interoperab",
+   3,
+   "FHIR / HL7"
+  ],
+  [
+   "\\bsql\\b",
+   2,
+   "SQL"
+  ],
+  [
+   "\\blooker\\b|\\bhex\\b|tableau|power bi",
+   2,
+   "Looker / BI"
+  ],
+  [
+   "\\bpython\\b|\\br\\b programming",
+   1,
+   "Python / R"
+  ],
+  [
+   "salesforce",
+   1,
+   "Salesforce"
+  ],
+  [
+   "registered nurse|\\brn\\b|\\bbsn\\b|nursing license|compact license",
+   3,
+   "RN"
+  ],
+  [
+   "\\bmph\\b|public health",
+   2,
+   "MPH / public health"
+  ],
+  [
+   "\\bmba\\b",
+   1,
+   "MBA"
+  ],
+  [
+   "\\bsphr\\b|\\bshrm\\b|human resources",
+   1,
+   "SPHR / HR"
+  ],
+  [
+   "six sigma|lean|process improvement|quality improvement|\\bpdsa\\b",
+   2,
+   "quality / process improvement"
+  ],
+  [
+   "non.?profit|association|foundation",
+   3,
+   "nonprofit"
+  ],
+  [
+   "policy|legislat|regulat|government affairs|advocacy",
+   3,
+   "policy / regulatory"
+  ],
+  [
+   "compliance|hipaa|accreditation|\\bncqa\\b|\\burac\\b|joint commission",
+   2,
+   "compliance / accreditation"
+  ],
+  [
+   "payer|payor|health plan|reimbursement|contracting",
+   2,
+   "payer / reimbursement"
+  ],
+  [
+   "\\bcpt\\b|icd.?10|hcpcs|coding|claims",
+   1,
+   "claims / coding"
+  ],
+  [
+   "telehealth|virtual care|telemedicine|digital health",
+   2,
+   "virtual care"
+  ],
+  [
+   "remote patient monitoring|\\brpm\\b|chronic care|\\bccm\\b",
+   2,
+   "RPM / chronic care"
+  ],
+  [
+   "home health|home.based|in.home",
+   2,
+   "home health"
+  ],
+  [
+   "maternal|women'?s health|obstetric|perinatal|prenatal|midwi|birth|fertility|reproductive",
+   3,
+   "maternal / women's health"
+  ],
+  [
+   "\\basl\\b|deaf|hard of hearing|accessib|disabilit|health equity|equity",
+   3,
+   "accessibility / equity"
+  ],
+  [
+   "\\bai\\b|artificial intelligence|\\bllm|machine learning|generative",
+   3,
+   "AI"
+  ],
+  [
+   "clinical documentation|chart (review|abstraction)|medical record review",
+   1,
+   "chart review"
+  ],
+  [
+   "dashboard|kpi|analytics|reporting",
+   1,
+   "analytics / dashboards"
+  ],
+  [
+   "stakeholder|cross.functional|executive|board",
+   1,
+   "executive stakeholders"
+  ],
+  [
+   "program (management|manager)|project management|implementation",
+   1,
+   "program management"
+  ],
+  [
+   "provider (engagement|performance|network|relations)",
+   2,
+   "provider engagement"
+  ],
+  [
+   "patient (advocacy|advocate|navigation|experience)|member (advocacy|experience)",
+   2,
+   "patient advocacy"
+  ],
+  [
+   "behavioral health|mental health|psychiatric",
+   1,
+   "behavioral health"
+  ],
+  [
+   "pediatric|children|family",
+   1,
+   "pediatrics / families"
+  ],
+  [
+   "spanish|french|bilingual|multilingual",
+   1,
+   "languages"
+  ],
+  [
+   "clinical (protocol|sop|guideline|pathway|content|curriculum)|standard operating",
+   2,
+   "clinical protocols / content"
+  ],
+  [
+   "strategy|strategic planning|operations|transformation",
+   1,
+   "strategy / operations"
+  ],
+  [
+   "training|education|teach|instructor|faculty",
+   1,
+   "teaching"
+  ],
+  [
+   "fundrais|grant|donor|development",
+   1,
+   "fundraising"
+  ],
+  [
+   "\\bvha\\b|veterans|federal program",
+   1,
+   "VA / federal programs"
+  ],
+  [
+   "mission.driven|social impact|public benefit|community.based|underserved|safety.net",
+   2,
+   "mission-driven"
+  ],
+  [
+   "(ai|model|llm).{0,30}(evaluat|safety|validation|governance|oversight|quality)|clinical (validation|evaluation) of|human.in.the.loop|red.team",
+   3,
+   "clinical AI evaluation"
+  ]
+ ],
+ "employment": {
+  "contract": "(\\(|\\b)(contract|contractor|1099|freelance|freelancer|fractional|per diem|prn|temporary|temp|interim|locum|project.based|seasonal)(\\)|\\b)",
+  "contract_desc": "\\b(1099|independent contractor|contract(or)? (position|role|opportunity|basis|engagement|assignment|agreement)|contractor engagement|as a contractor|independent contractor|w-?2 contract|this is a (contract|temporary|part.time|fractional)|freelance|fractional|per diem|\\bprn\\b|temporary (position|role|assignment)|(3|6|9|12)[- ]month (contract|engagement|assignment)|contract.to.hire|contract to perm|hourly contract|consulting engagement|w-?9)\\b",
+  "part_time": "\\b(part.?time|\\d{1,2}\\s*(-|to)?\\s*\\d{0,2}\\s*(hrs|hours)\\s*(per|a|/|each)\\s*week|reduced hours|weekends? only|evenings? only|as needed)\\b",
+  "full_time": "\\b(full.?time|fte|salaried|permanent)\\b"
+ },
+ "us_ok": "\\b(usa|u\\.s\\.?a?\\b|united states|us only|us-based|us based|remote - us|remote us|remote, us|remote \\(us\\)|anywhere|worldwide|global|north america|northern america|americas|nationwide|national|all states|multiple states|eastern|est\\b|et\\b|cst\\b|pst\\b|georgia|south carolina|atlanta|charlotte|florida|texas|new york|virginia|tennessee|north carolina)\\b",
+ "non_us": "\\b(united kingdom|\\buk\\b|england|london|ireland|dublin|europe|\\beu\\b|emea|germany|berlin|france|paris|spain|madrid|portugal|lisbon|netherlands|amsterdam|italy|poland|romania|bulgaria|india|bangalore|bengaluru|pakistan|philippines|manila|vietnam|indonesia|malaysia|singapore|australia|sydney|new zealand|canada(?! and (the )?us)|toronto|vancouver|montreal|mexico|brazil|argentina|colombia|chile|peru|latam|latin america|apac|asia|africa|nigeria|kenya|south africa|egypt|dubai|uae|israel|turkey|ukraine|russia|japan|tokyo|korea|seoul|china|hong kong|taiwan)\\b",
+ "onsite": "\\b(on.?site|in.?office|in.person|hybrid|office.based|must be located in|local candidates only|relocat)\\b",
+ "focus": {
+  "label": "Fractional and part-time nonprofit roles, plus remote clinical leadership",
+  "require_nonprofit": true,
+  "part_time_only": true,
+  "since": "2026-09-30",
+  "note": "The scanner lists only roles at nonprofit employers that are fractional, interim, part-time or reduced-hours contract work. Delete this block to go back to the full list. Since 2026-10-16 'also_list' lets remote clinical leadership roles through as well (see its note).",
+  "also_list": {
+   "label": "Clinical leadership",
+   "note": "Added 2026-10-16: remote care management, utilization management, clinical operations, clinical quality, population health, value-based care, remote monitoring and nurse-executive roles at payers and health tech are listed alongside the nonprofit part-time list, full-time and for-profit included, when the title sits at manager level or above (min_level 3: manager, senior manager, director, VP, chief). Staff seats (care manager RN, utilization review nurse, reviewer, advocate) still go through the focus filter. These roles carry a 'Clinical leadership' badge and get a reserved share of the list like the AI and nonprofit lenses. Remove 'also_list' to go back to nonprofit part-time only.",
+   "families": [
+    "Director of Care Management",
+    "Utilization Management Director",
+    "Director of Clinical Operations",
+    "Nurse Executive / VP Clinical Services",
+    "Director of Clinical Quality (Stars/HEDIS)",
+    "Population Health Program Manager",
+    "Value-Based Care Program Director",
+    "Remote Patient Monitoring Program Director"
+   ],
+   "min_level": 3
+  }
+ },
+ "scoring": {
+  "note": "Every role is scored out of 100 in four parts: skills overlap 40, seniority fit 25, domain fit 20, practical fit 15. Change the weights here (they should add to 100). candidate_years is the experience the seniority check compares a posting's 'N+ years' against; min_seniority is the seniority score a role needs to be listed at all (a miss there is a one-line rejection); level_points is what each title level earns out of 25 (5 executive, 4 director, 3 manager or senior consultant, 2 individual contributor, 1 entry). Any other key in SCORING_DEFAULTS at the top of the four-part score section of scanner.py (word lists for domains, skill gaps, title levels, pay and freshness cut-offs) can be overridden by adding it here.",
+  "weights": {
+   "skills": 40,
+   "seniority": 25,
+   "domain": 20,
+   "practical": 15
+  },
+  "candidate_years": 12,
+  "min_seniority": 10,
+  "level_points": {
+   "5": 25,
+   "4": 25,
+   "3": 20,
+   "2": 12,
+   "1": 4
+  },
+  "skills_mix": {
+   "resume_similarity": 0.45,
+   "skill_lexicon": 0.3,
+   "requirements_covered": 0.25
+  }
+ },
+ "fundraising": {
+  "note": "Development, grants and fundraising roles are never listed. A title matching 'title' is dropped, and so is any title containing 'development' unless it is qualified by one of 'development_ok' (business development, product development, workforce development and so on). A posting below executive level whose text is mostly fundraising language (at least 'desc_min' distinct hits of 'desc_terms' in the first 4000 characters, one of them in the first 500) is dropped too; an executive-director style posting with that much fundraising language stays listed and carries a 'Fundraising heavy' badge. Dropped postings are counted in stats.rejects under 'development / fundraising'. Delete this block to list them again.",
+  "title": "\\b(grant ?writ\\w*|grants?(?: and| &)?(?: project| programs?| portfolio| management| compliance| contracts?| operations)? (manager|director|officer|coordinator|specialist|administrator|associate|consultant|lead|strategist|writer|analyst|accountant|program|team|support)|grants? (development|management|writing|programs?|funding|administration|compliance|operations)|head of grants?|(director|manager|vp|vice president|head|officer|coordinator|associate|specialist|lead|consultant|strategist)(?: of)?,? grants?|fundrais\\w*|fund ?rais\\w*|institutional (giving|funding|fundraising|partnerships|relations|support)|public funding|funding (manager|director|officer|specialist|coordinator|support|strategist|lead|consultant)|foundation relations|major gifts?|annual (giving|fund)|individual giving|planned giving|leadership giving|corporate giving|donor \\w+|philanthrop\\w*|advancement|stewardship|chief development officer|\\bcdo\\b|proposal (writer|writing|development|manager|coordinator|specialist)|capital campaign|gift officer|giving (officer|manager|director|lead|specialist)|resource (development|mobili[sz]ation)|fund development|development (and|&) communications)\\b",
+  "development_ok": "\\b(business|product|products|clinical|workforce|professional|learning(?: and| &)?|software|economic|leadership|talent|organi[sz]ational|curriculum|program|programs|web|community|research(?: and| &)?|policy|content|market|training|partnerships?|network|provider|practice|capacity|child|youth|early childhood|human|career|staff|course|membership|corporate|team|skills?|clinical trials?|drug|therapeutic|site|application|strategy(?: and| &)?|l&d|people|international|global|sustainable|rural|urban|housing|real estate|land|technology|systems?|platform|model|protocol|guideline|standards?|measure|quality|clinical quality|evidence|knowledge|data|analytics|academic|faculty|student|teacher|educator|physician|nurse|nursing|clinician|employee|personnel|supervisor|manager|management) development\\b",
+  "desc_terms": "\\b(grants?|grant.?writing|grant.?making|grantmak\\w+|fundrais\\w*|fund ?rais\\w*|donors?|donor relations|philanthrop\\w*|major gifts?|annual fund|annual giving|individual giving|institutional giving|foundation relations|planned giving|capital campaign|stewardship|cultivat\\w+|solicit\\w+|prospect research|prospecting|moves management|gift (processing|officer|entry)|raiser'?s edge|bloomerang|bonterra|donorperfect|little green light|salesforce npsp|funder relations|funders?|pledge|galas?|peer.to.peer)\\b",
+  "desc_min": 10
+ }
+}

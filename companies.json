@@ -1,0 +1,1195 @@
+{
+ "boards": [
+  {
+   "ats": "ashby",
+   "slug": "1uphealth",
+   "name": "1upHealth",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "abridge",
+   "name": "Abridge",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "ambiencehealthcare",
+   "name": "Ambience Healthcare",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "anterior",
+   "name": "Anterior",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "assorthealth",
+   "name": "Assort Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "boulder-care",
+   "name": "Boulder Care"
+  },
+  {
+   "ats": "ashby",
+   "slug": "canvas-medical",
+   "name": "Canvas Medical",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "centivo",
+   "name": "Centivo"
+  },
+  {
+   "ats": "ashby",
+   "slug": "commure",
+   "name": "Commure",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "counsel",
+   "name": "Counsel Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "eleos",
+   "name": "Eleos Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "equip",
+   "name": "Equip Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "firsthand",
+   "name": "firsthand"
+  },
+  {
+   "ats": "ashby",
+   "slug": "freed",
+   "name": "Freed",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "gravie",
+   "name": "Gravie"
+  },
+  {
+   "ats": "ashby",
+   "slug": "grow-therapy",
+   "name": "Grow Therapy"
+  },
+  {
+   "ats": "ashby",
+   "slug": "handshake",
+   "name": "Handshake"
+  },
+  {
+   "ats": "ashby",
+   "slug": "handspring",
+   "name": "Handspring Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "headway",
+   "name": "Headway"
+  },
+  {
+   "ats": "ashby",
+   "slug": "hellopatient",
+   "name": "HelloPatient",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "hinge-health",
+   "name": "Hinge Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "infinitus",
+   "name": "Infinitus",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "latent",
+   "name": "Latent Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "limbic",
+   "name": "Limbic",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "mercor",
+   "name": "Mercor",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "nabla",
+   "name": "Nabla",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "notable",
+   "name": "Notable",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "openevidence",
+   "name": "OpenEvidence",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "openloophealth",
+   "name": "OpenLoop Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "pathpoint",
+   "name": "Pathpoint",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "pearlhealth",
+   "name": "Pearl Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "pomelo-care",
+   "name": "Pomelo Care",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "regard",
+   "name": "Regard",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "rula",
+   "name": "Rula"
+  },
+  {
+   "ats": "ashby",
+   "slug": "sailorhealth",
+   "name": "Sailor Health",
+   "watch": true,
+   "watch_note": "Watched employer: every remote-US role at this board is listed, full-time included, whatever its age."
+  },
+  {
+   "ats": "ashby",
+   "slug": "sesame",
+   "name": "Sesame"
+  },
+  {
+   "ats": "ashby",
+   "slug": "solace",
+   "name": "Solace Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "sondermind",
+   "name": "SonderMind"
+  },
+  {
+   "ats": "ashby",
+   "slug": "sprinter-health",
+   "name": "Sprinter Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "talkiatry",
+   "name": "Talkiatry"
+  },
+  {
+   "ats": "ashby",
+   "slug": "tennr",
+   "name": "Tennr",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "thyme-care",
+   "name": "Thyme Care"
+  },
+  {
+   "ats": "ashby",
+   "slug": "turquoise-health",
+   "name": "Turquoise Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "wheel",
+   "name": "Wheel"
+  },
+  {
+   "ats": "ashby",
+   "slug": "zus-health",
+   "name": "Zus Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "1uphealth",
+   "name": "1upHealth",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "alayacare",
+   "name": "AlayaCare"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "amwell",
+   "name": "Amwell"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "axuall",
+   "name": "Axuall",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "belonghealth",
+   "name": "Belong Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "bennie",
+   "name": "Bennie"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "bicyclehealth",
+   "name": "Bicycle Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "biofourmis",
+   "name": "Biofourmis",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "blackbirdhealth",
+   "name": "Blackbird Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "candid",
+   "name": "Candid"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "carrotfertility",
+   "name": "Carrot Fertility",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "charliehealth",
+   "name": "Charlie Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "cleo",
+   "name": "Cleo",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "cloverhealth",
+   "name": "Clover Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "coherehealth",
+   "name": "Cohere Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "daybreakhealth",
+   "name": "Daybreak Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "doximity",
+   "name": "Doximity",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "elationhealth",
+   "name": "Elation Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "eleoshealth",
+   "name": "Eleos Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "evergreennephrology",
+   "name": "Evergreen Nephrology"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "firsthand",
+   "name": "firsthand"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "flatironhealth",
+   "name": "Flatiron Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "formationbio",
+   "name": "Formation Bio"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "formhealth",
+   "name": "Form Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "galileo",
+   "name": "Galileo"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "garnerhealth",
+   "name": "Garner Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "healthjoy",
+   "name": "HealthJoy"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "helloheart",
+   "name": "Hello Heart"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "honor",
+   "name": "Honor"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "interwellhealth",
+   "name": "Interwell Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "j2health",
+   "name": "J2 Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "komodohealth",
+   "name": "Komodo Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "lumahealth",
+   "name": "Luma Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "mainstreethealth",
+   "name": "Main Street Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "mantrahealth",
+   "name": "Mantra Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "mavenclinic",
+   "name": "Maven Clinic",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "midihealth",
+   "name": "Midi Health",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "modernhealth",
+   "name": "Modern Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "octave",
+   "name": "Octave"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "omadahealth",
+   "name": "Omada Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "onemedical",
+   "name": "One Medical"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "ophelia",
+   "name": "Ophelia"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "oscar",
+   "name": "Oscar Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "oshihealth",
+   "name": "Oshi Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "pairteam",
+   "name": "Pair Team"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "papa",
+   "name": "Papa"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "parsleyhealth",
+   "name": "Parsley Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "pelago",
+   "name": "Pelago"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "pomelocare",
+   "name": "Pomelo Care",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "qventus",
+   "name": "Qventus",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "rialtic",
+   "name": "Rialtic",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "rightway",
+   "name": "Rightway"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "scaleai",
+   "name": "Scale AI",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "science37",
+   "name": "Science 37"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "sidecarhealth",
+   "name": "Sidecar Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "strivehealth",
+   "name": "Strive Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "suki",
+   "name": "Suki",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "swordhealth",
+   "name": "Sword Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "talkspace",
+   "name": "Talkspace"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "tebra",
+   "name": "Tebra"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "tia",
+   "name": "Tia",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "toloka",
+   "name": "Toloka",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "truveta",
+   "name": "Truveta",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "turing",
+   "name": "Turing",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "twinhealth",
+   "name": "Twin Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "twochairs",
+   "name": "Two Chairs"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "uniteus",
+   "name": "Unite Us"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "uplift",
+   "name": "UpLift"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "upwardhealth",
+   "name": "Upward Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "usenourish",
+   "name": "Nourish"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "veranahealth",
+   "name": "Verana Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "waymark",
+   "name": "Waymark"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "wellthy",
+   "name": "Wellthy"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "workithealth",
+   "name": "Workit Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "zocdoc",
+   "name": "Zocdoc"
+  },
+  {
+   "ats": "lever",
+   "slug": "aledade",
+   "name": "Aledade"
+  },
+  {
+   "ats": "lever",
+   "slug": "arcadia",
+   "name": "Arcadia"
+  },
+  {
+   "ats": "lever",
+   "slug": "artera",
+   "name": "Artera"
+  },
+  {
+   "ats": "lever",
+   "slug": "clarifyhealth",
+   "name": "Clarify Health"
+  },
+  {
+   "ats": "lever",
+   "slug": "everlywell",
+   "name": "Everlywell"
+  },
+  {
+   "ats": "lever",
+   "slug": "findhelp",
+   "name": "findhelp",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "getlabs",
+   "name": "Getlabs"
+  },
+  {
+   "ats": "lever",
+   "slug": "hhaexchange",
+   "name": "HHAeXchange"
+  },
+  {
+   "ats": "lever",
+   "slug": "includedhealth",
+   "name": "Included Health"
+  },
+  {
+   "ats": "lever",
+   "slug": "lifestance",
+   "name": "LifeStance Health"
+  },
+  {
+   "ats": "lever",
+   "slug": "mahmee",
+   "name": "Mahmee",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "mantra",
+   "name": "Mantra Health"
+  },
+  {
+   "ats": "lever",
+   "slug": "pathpoint",
+   "name": "Pathpoint",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "pointclickcare",
+   "name": "PointClickCare"
+  },
+  {
+   "ats": "lever",
+   "slug": "resiliencelab",
+   "name": "Resilience Lab"
+  },
+  {
+   "ats": "lever",
+   "slug": "ro",
+   "name": "Ro"
+  },
+  {
+   "ats": "lever",
+   "slug": "sanabenefits",
+   "name": "Sana Benefits"
+  },
+  {
+   "ats": "lever",
+   "slug": "vida",
+   "name": "Vida Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "cofertility",
+   "name": "Cofertility",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "nadiacare",
+   "name": "Nadia Care",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "layerhealth",
+   "name": "Layer Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "smarterdx",
+   "name": "SmarterDx",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "nuna",
+   "name": "Nuna",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "clarium",
+   "name": "Clarium",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "radai",
+   "name": "Rad AI",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "curai",
+   "name": "Curai Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "bighealth",
+   "name": "Big Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "virtahealth",
+   "name": "Virta Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "stellar-health",
+   "name": "Stellar Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "vim",
+   "name": "Vim",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "zushealth",
+   "name": "Zus Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "mochihealth",
+   "name": "Mochi Health"
+  },
+  {
+   "ats": "lever",
+   "slug": "lyrahealth",
+   "name": "Lyra Health"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "hazel",
+   "name": "Hazel Health"
+  },
+  {
+   "ats": "ashby",
+   "slug": "hellobrightline",
+   "name": "Brightline"
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "tuesdayhealth",
+   "name": "Tuesday Health"
+  },
+  {
+   "ats": "lever",
+   "slug": "seven-starling",
+   "name": "Seven Starling",
+   "tags": [
+    "maternal"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "ppfa",
+   "name": "Planned Parenthood Federation of America",
+   "tags": [
+    "nonprofit",
+    "maternal"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "thetrevorproject",
+   "name": "The Trevor Project",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "codeforamerica",
+   "name": "Code for America",
+   "tags": [
+    "nonprofit",
+    "ai"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "navapbc",
+   "name": "Nava PBC",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "propel",
+   "name": "Propel",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "ats": "greenhouse",
+   "slug": "dimagi",
+   "name": "Dimagi",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "ferryhealth",
+   "name": "Ferry Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "tandem-health",
+   "name": "Tandem Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "archy",
+   "name": "Archy",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "ezhealth",
+   "name": "Ez Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "ashby",
+   "slug": "epsilon-health",
+   "name": "Epsilon Health",
+   "tags": [
+    "ai"
+   ]
+  },
+  {
+   "ats": "lever",
+   "slug": "h1",
+   "name": "H1",
+   "tags": [
+    "ai"
+   ]
+  }
+ ],
+ "workday": [
+  {
+   "tenant": "humana",
+   "wd": "wd5",
+   "site": "Humana_External_Career_Site",
+   "name": "Humana"
+  },
+  {
+   "tenant": "elevancehealth",
+   "wd": "wd1",
+   "site": "ANT",
+   "name": "Elevance Health"
+  },
+  {
+   "tenant": "cvshealth",
+   "wd": "wd1",
+   "site": "CVS_Health_Careers",
+   "name": "CVS Health / Aetna"
+  },
+  {
+   "tenant": "hcsc",
+   "wd": "wd1",
+   "site": "HCSC_External",
+   "name": "HCSC (BCBS IL/TX/NM/OK/MT)",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "highmarkhealth",
+   "wd": "wd1",
+   "site": "highmark",
+   "name": "Highmark Health",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "caresource",
+   "wd": "wd1",
+   "site": "caresource",
+   "name": "CareSource",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "premera",
+   "wd": "wd5",
+   "site": "Premera",
+   "name": "Premera Blue Cross",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "mckesson",
+   "wd": "wd3",
+   "site": "External_Careers",
+   "name": "McKesson"
+  },
+  {
+   "tenant": "healthfirst",
+   "wd": "wd1",
+   "site": "healthfirst",
+   "name": "Healthfirst",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "centene",
+   "wd": "wd5",
+   "site": "Centene_External",
+   "name": "Centene"
+  },
+  {
+   "tenant": "bcbsnc",
+   "wd": "wd5",
+   "site": "bcbsnc",
+   "name": "Blue Cross NC",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "geisinger",
+   "wd": "wd5",
+   "site": "GeisingerExternal",
+   "name": "Geisinger",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "aamc",
+   "wd": "wd5",
+   "site": "aamc",
+   "name": "AAMC",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "rwjf",
+   "wd": "wd1",
+   "site": "rwjf",
+   "name": "Robert Wood Johnson Foundation",
+   "tags": [
+    "nonprofit"
+   ]
+  },
+  {
+   "tenant": "verily",
+   "wd": "wd1",
+   "site": "Verily_Careers",
+   "name": "Verily",
+   "tags": [
+    "ai"
+   ]
+  }
+ ],
+ "note": "Add a board by appending {ats, slug, name, tags?}. ats is greenhouse, lever or ashby. Workday entries need tenant, wd (wd1/wd5), site. tags may include ai, nonprofit, maternal; the scanner adds a score bonus for ai and nonprofit. Added 2026-09-20 from the Lumira health AI funding recap: Ferry Health, Tandem Health, Archy, Ez Health, Epsilon Health, H1 (Defacto Health was acquired by H1 on 2026-09-09, so its roles surface there), Verily on Workday. Assort Health was already tracked. Nara Health (narabenefits.com) and Graph AI (graphsafety.ai) publish no scannable board; Implicity uses Welcome to the Jungle, which the scanner cannot read, and its two US roles are York-based. A board or Workday entry with \"watch\": true is a watched employer: its remote-US roles that match a title family are listed even when the focus block would drop them (full-time, for-profit) and however old the posting is; they carry a \"Watched employer\" badge."
+}

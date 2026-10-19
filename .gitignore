@@ -1,0 +1,5 @@
+work/
+*.pkl
+resume_texts.json
+__pycache__/
+.venv/
